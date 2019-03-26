@@ -23,9 +23,9 @@ void setup() {
 
 void keyPressed() {
   if (key == '1') {
-    rotate1(true);
+    rotateY(true);
   } else if (key == '2') {
-    rotate1(false);
+    rotateY(false);
   }
 }
 
