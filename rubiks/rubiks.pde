@@ -26,6 +26,14 @@ void keyPressed() {
     rotateZ(true, 0);
   } else if (key == '2') {
     rotateZ(false, 0);
+  } else if (key == '3') {
+    rotateZ(false, 1);    
+  } else if (key == '4') {
+    rotateZ(false, 1);    
+  } else if (key == '5') {
+    rotateZ(false, 2);    
+  } else if (key == '6') {
+    rotateZ(false, 2);    
   }
 }
 
