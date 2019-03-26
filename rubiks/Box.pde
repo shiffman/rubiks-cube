@@ -12,7 +12,7 @@ class Box {
   // front, back, right, left, top, bottom
   color[] colors;
 
-  void rotate1(boolean clockwise) {
+  void rotateZ(boolean clockwise) {
     if (clockwise) {
       color temp = colors[RGT];
       colors[RGT] = colors[TPP];

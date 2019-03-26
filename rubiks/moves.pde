@@ -13,7 +13,7 @@ void rotateZ(boolean clockwise, int index) {
   Box[] boxes = new Box[8]; 
   for (int i = 0; i < boxes.length; i++) {
     boxes[i] = getBox(xs[i], ys[i], index);
-    boxes[i].rotate1(clockwise);
+    boxes[i].rotateZ(clockwise);
   }
   for (int i = 0; i < boxes.length; i++) {
     setBox(boxes[(i+2)%boxes.length], xs[i], ys[i], index);
