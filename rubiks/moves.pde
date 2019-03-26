@@ -9,7 +9,7 @@ void setBox(Box b, int i, int j, int k) {
   cube[i][j][k] = b;
 }
 
-void rotateZ(boolean clockwise, int index) {
+void rotateCubeZ(boolean clockwise, int index) {
   Box[] boxes = new Box[8]; 
   for (int i = 0; i < boxes.length; i++) {
     boxes[i] = getBox(xs[i], ys[i], index);

@@ -36,8 +36,6 @@ class Box {
     colors[BOT] = temp;
   }
 
-
-
   Box copy() {
     color[] dest = new color[6];
     arrayCopy(colors, dest);
@@ -53,6 +51,7 @@ class Box {
   void show() {
     push();
     stroke(0);
+    strokeWeight(4);
     translate(pos.x, pos.y, pos.z);
     beginShape(QUADS);
     // Front
